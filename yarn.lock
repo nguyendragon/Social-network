@@ -797,9 +797,9 @@ camelcase-css@^2.0.1:
   integrity sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==
 
 caniuse-lite@^1.0.30001426, caniuse-lite@^1.0.30001449:
-  version "1.0.30001457"
-  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001457.tgz"
-  integrity sha512-SDIV6bgE1aVbK6XyxdURbUE89zY7+k1BBBaOwYwkNCglXlel/E7mELiHC64HQ+W0xSKlqWhV9Wh7iHxUjMs4fA==
+  version "1.0.30001564"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001564.tgz"
+  integrity sha512-DqAOf+rhof+6GVx1y+xzbFPeOumfQnhYzVnZD6LAXijR77yPtm9mfOcqOnT3mpnJiZVT+kwLAFnRlZcIz+c6bg==
 
 chalk@^2.0.0:
   version "2.4.2"
@@ -1875,6 +1875,11 @@ supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
+
+swiper@^11.0.5:
+  version "11.0.5"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-11.0.5.tgz#6ed1ad06e6906ba42fd4b93d4988f0626a49046e"
+  integrity sha512-rhCwupqSyRnWrtNzWzemnBLMoyYuoDgGgspAm/8iBD3jCvAWycPLH4Z3TB0O5520DHLzMx94yUMH/B9Efpa48w==
 
 tailwindcss@^3.2.7:
   version "3.2.7"

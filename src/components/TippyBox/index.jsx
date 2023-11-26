@@ -1,10 +1,10 @@
 import Tippy from '@tippyjs/react';
 
-function TippyBox({ children, title, placement = 'bottom' }) {
+function TippyBox({ children, arrow = false, title, placement = 'bottom' }) {
     return (
         <Tippy
-            arrow=""
-            className="bg-[#fff] text-[#242526] p-1 text-[0.8rem]"
+            arrow={arrow}
+            className="bg-[#e9e9ee] text-[#242526] p-1 text-[0.8rem]"
             delay={[100, 150]}
             content={title}
             placement={placement}

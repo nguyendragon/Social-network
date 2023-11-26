@@ -1,6 +1,6 @@
-import Home from '@src/pages/Home';
+import Home from '@src/pages/HomePage';
 import Messages from '@src/pages/Messages';
-import { Login, Register, ForgotPassword } from '@src/pages/Account';
+import { Login, Register, ForgotPassword } from '@src/pages/AuthPage';
 // import Maintain from '@src/pages/Maintain';
 
 // Public Router

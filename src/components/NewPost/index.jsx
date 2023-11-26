@@ -1,5 +1,5 @@
 import classNames from 'classnames/bind';
-import styles from './NewPost.module.scss';
+import styles from './style/NewPost.module.scss';
 
 import TippyBox from '@src/components/TippyBox';
 import { livestream, imgvideo, feeling } from '@src/assets/images';
@@ -29,17 +29,17 @@ function NewPost() {
                 <TippyBox title="Coming soon..." placement="bottom">
                     <div className="flex justify-center items-center gap-3 w-full select-none cursor-pointer hover:bg-[#9999] duration-150 p-1 py-2 rounded-md">
                         <img className="w-6 h-6" src={livestream} alt="" />
-                        <span className="text-[#b0b3b8] font-semibold">Video trực tiếp</span>
+                        <span className="text-[#b0b3b8] font-semibold text-sm">Video trực tiếp</span>
                     </div>
                 </TippyBox>
                 <div className="flex justify-center items-center gap-3 w-full select-none cursor-pointer hover:bg-[#9999] duration-150 p-1 py-2 rounded-md">
                     <img className="w-6 h-6" src={imgvideo} alt="" />
-                    <span className="text-[#b0b3b8] font-semibold">Ảnh/video</span>
+                    <span className="text-[#b0b3b8] font-semibold text-sm">Ảnh/video</span>
                 </div>
                 <TippyBox title="Coming soon..." placement="bottom">
                     <div className="flex justify-center items-center gap-3 w-full select-none cursor-pointer hover:bg-[#9999] duration-150 p-1 py-2 rounded-md">
                         <img className="w-6 h-6" src={feeling} alt="" />
-                        <span className="text-[#b0b3b8] font-semibold">Cảm xúc/Hoạt động</span>
+                        <span className="text-[#b0b3b8] font-semibold text-sm">Cảm xúc/Hoạt động</span>
                     </div>
                 </TippyBox>
             </div>

@@ -1,0 +1,39 @@
+// swiper news item custom
+#news {
+    .swiper-button-disabled {
+        display: none !important;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #39393b;
+        color: #b0b3b8;
+        width: 46px;
+        height: 46px;
+        border-radius: 50%;
+        transition: all 50ms;
+
+        &:hover {
+            background-color: #3e4042;
+        }
+
+        &:active {
+            background-color: #39393b;
+        }
+    }
+
+    .swiper-button-prev:after,
+    .swiper-button-next:after {
+        font-size: 16px;
+        font-weight: 800;
+    }
+}
+
+// Tippy news item custom
+
+.tippy-arrow {
+    color: transparent;
+}

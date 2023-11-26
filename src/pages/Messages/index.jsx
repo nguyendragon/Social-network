@@ -20,8 +20,8 @@ const cx = classNames.bind(styles);
 
 function Messages() {
     return (
-        <div className="flex justify-between h-screen w-full pt-[60px]">
-            <div className="flex-[1.2] bg-[#242526] pl-3" style={{ borderRight: '1px solid #3e4042' }}>
+        <div className="grid grid-cols-12 h-screen w-full pt-[60px]">
+            <div className="col-span-3 bg-[#242526] pl-3" style={{ borderRight: '1px solid #3e4042' }}>
                 <div className="text-white my-3">
                     <h3 className="text-3xl font-bold select-none">Chat</h3>
                 </div>
@@ -55,7 +55,7 @@ function Messages() {
                             <div className="absolute left-[45px] bottom-1 w-4 h-4 rounded-full bg-[#31a24c] border-2 border-[#33363a]"></div>
                             <div className="self-start leading-8">
                                 <h3 className="font-semibold text-[#e4e6eb]">Nguyễn Long</h3>
-                                <div className="flex gap-1 text-sm text-[#b0b3b8]">
+                                <div className="flex gap-1 text-sm text-[#b0b3b8] whitespace-nowrap">
                                     <p className="flex items-center">
                                         đã bày tỏ cảm xúc
                                         <img
@@ -99,7 +99,7 @@ function Messages() {
                     </div>
                 </div>
             </div>
-            <div className="hidden md:flex flex-col w-full h-full flex-[2] bg-[#242526] z-[3]">
+            <div className="col-span-9  hidden md:flex flex-col w-full h-full bg-[#242526] z-[3]">
                 <div className="w-full select-none" style={{ boxShadow: '0 0 4px rgba(0, 0, 0, 0.2)' }}>
                     <div className="flex items-center justify-between py-1 px-3">
                         <div className="flex items-center gap-2 z-[1] relative cursor-pointer hover:bg-[#9999] duration-150 py-1 px-4 rounded-md">
@@ -149,16 +149,16 @@ function Messages() {
                     <div className="flex justify-between items-center">
                         <div className="flex justify-between items-center gap-6 px-3">
                             <div className="w-full flex justify-center cursor-pointer rounded-full p-2 hover:bg-[#2b2d2d] duration-150">
-                                <img className="w-[65px] xl:w-[40px]" src={voiceMessage} alt="" />
+                                <img className="w-[65px] xl:w-[35px]" src={voiceMessage} alt="" />
                             </div>
                             <div className="w-full flex justify-center cursor-pointer rounded-full p-2 hover:bg-[#2b2d2d] duration-150">
-                                <img className="w-[65px] xl:w-[40px]" src={imageMessage} alt="" />
+                                <img className="w-[65px] xl:w-[35px]" src={imageMessage} alt="" />
                             </div>
                             <div className="w-full flex justify-center cursor-pointer rounded-full p-2 hover:bg-[#2b2d2d] duration-150">
-                                <img className="w-[65px] xl:w-[40px]" src={sticker} alt="" />
+                                <img className="w-[65px] xl:w-[35px]" src={sticker} alt="" />
                             </div>
                             <div className="w-full flex justify-center cursor-pointer rounded-full p-2 hover:bg-[#2b2d2d] duration-150">
-                                <img className="w-[65px] xl:w-[40px]" src={gifMessage} alt="" />
+                                <img className="w-[65px] xl:w-[35px]" src={gifMessage} alt="" />
                             </div>
                         </div>
                         <div className="flex justify-between items-center w-full">
@@ -178,8 +178,8 @@ function Messages() {
                                 />
                             </div>
                         </div>
-                        <div className="flex justify-center items-center cursor-pointer rounded-full p-2 hover:bg-[#2b2d2d] duration-150">
-                            <img className="w-[50px] xl:w-[40px]" src={likeMessage} alt="" />
+                        <div className="flex justify-center items-center cursor-pointer rounded-full p-2 mx-2 hover:bg-[#2b2d2d] duration-150">
+                            <img className="w-[30px] xl:w-[30px]" src={likeMessage} alt="" />
                         </div>
                     </div>
                 </div>
